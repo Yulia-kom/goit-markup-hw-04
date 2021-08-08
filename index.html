@@ -24,24 +24,27 @@
           <a class="logo" href=".index.html"><span>Web</span>Studio</a>
 
           <ul class="menu-nav list">
-            <li class="item"><a href="./index.html" class="link current">Студия</a></li>
-            <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li class="item"><a href="#" class="link">Контакты</a></li>
+            <li class="item">
+              <a href="./index.html" class="link current">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="item">
+              <a href="#" class="link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
           <li class="item">
-            <svg class="icon" width="16px" height="12px">
-              <use xlink:href="./images/icons.svg#icon-envelope"></use>
-            </svg>
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link-contacts">
+              <svg  class="link-icon" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
           </li>
 
           <li class="item">
-            <svg class="icon" width="10px" height="16px">
-              <use xlink:href="./images/icons.svg#icon-smartphone"></use>
-            </svg>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link-contacts">
+              <svg class="link-icon"  width="10px" height="16px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -61,7 +64,9 @@
           <ul class="section-menu list">
             <li class="item">
               <div class="menu-icon">
-                <svg class="icon"><use xlink:href="./images/icons.svg#icon-antenna"></use></svg>
+                <svg class="icon" width="70px" height="70px">
+                  <use xlink:href="./images/icons.svg#icon-antenna"></use>
+                </svg>
               </div>
               <h3 class="section-title">Внимание к деталям</h3>
               <p class="section-text">
@@ -71,7 +76,9 @@
 
             <li class="item">
               <div class="menu-icon">
-                <svg class="icon"><use xlink:href="./images/icons.svg#icon-clock"></use></svg>
+                <svg class="icon" width="70px" height="70px">
+                  <use xlink:href="./images/icons.svg#icon-clock"></use>
+                </svg>
               </div>
               <h3 class="section-title">Пунктуальность</h3>
               <p class="section-text">
@@ -81,7 +88,9 @@
 
             <li class="item">
               <div class="menu-icon">
-                <svg class="icon"><use xlink:href="./images/icons.svg#icon-diagram"></use></svg>
+                <svg class="icon" width="70px" height="70px">
+                  <use xlink:href="./images/icons.svg#icon-diagram"></use>
+                </svg>
               </div>
               <h3 class="section-title">Планирование</h3>
               <p class="section-text">
@@ -91,7 +100,9 @@
 
             <li class="item">
               <div class="menu-icon">
-                <svg class="icon"><use xlink:href="./images/icons.svg#icon-astronaut"></use></svg>
+                <svg class="icon" width="70px" height="70px">
+                  <use xlink:href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
               </div>
               <h3 class="section-title">Современный технологии</h3>
               <p class="section-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
@@ -299,40 +310,56 @@
 
       <!--Постоянные клиенты-->
       <section class="clients-section">
-        <div>
+        <div class="container">
           <h2 class="container-title">Постоянные клиенты</h2>
+
           <ul class="clients-list">
             <li class="clients-item">
-              <svg>
-                <use href="./images/icons.svg#icon-Logo1"></use>
-              </svg>
+              <a href="" class="clients-icon">
+                <svg widht="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Logo1"></use>
+                </svg>
+              </a>
             </li>
 
             <li class="clients-item">
-              <svg>
-                <use xlink:href="./images/icons.svg#icon-Logo2"></use>
-              </svg>
+              <a href="" class="clients-icon">
+                <svg widht="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Logo2"></use>
+                </svg>
+              </a>
             </li>
 
             <li class="clients-item">
-              <svg>
-                <use xlink:href="./images/icons.svg#icon-Logo3"></use>
-              </svg>
+              <a href="" class="clients-icon">
+                <svg widht="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Logo3"></use>
+                </svg>
+              </a>
             </li>
+
             <li class="clients-item">
-              <svg>
-                <use xlink:href="./images/icons.svg#icon-Logo4"></use>
-              </svg>
+              <a href="" class="clients-icon">
+                <svg widht="106px" height="60px" >
+                  <use href="./images/icons.svg#icon-Logo4"></use>
+                </svg>
+              </a>
             </li>
+
             <li class="clients-item">
-              <svg>
-                <use xlink:href="./images/icons.svg#icon-Logo5"></use>
-              </svg>
+              <a href="" class="clients-icon">
+                <svg widht="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Logo5"></use>
+                </svg>
+              </a>
             </li>
+
             <li class="clients-item">
-              <svg>
-                <use xlink:href="./images/icons.svg#icon-Logo6"></use>
-              </svg>
+              <a href="" class="clients-icon">
+                <svg class="icon" widht="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Logo6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -346,39 +373,45 @@
           <a href="./index.html" class="logo-footer"><span>Web</span>Studio</a>
           <address>г. Киев, пр-т Леси Украинки, 26</address>
           <ul class="auth-footer list">
-            <li class="item"><a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a></li>
-            <li class="item"><a href="tel:+380961111111" class="auth-link">+38 096 111 11 11</a></li>
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="auth-link">+38 096 111 11 11</a>
+            </li>
           </ul>
         </div>
 
         <div class="col">
           <h2 class="footer-title">Присоединяйтесь</h2>
+
           <ul class="footer-list">
+
             <li class="footer-item">
-              <a href="">
-                <svg width="44px" height="44px">
+              <a href="" class="footer-icon">
+                <svg  width="44px" height="44px">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-item">
-              <a href="">
+              <a href="" class="footer-icon">
                 <svg width="44px" height="44px">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-item">
-              <a href="">
+              <a href="" class="footer-icon">
                 <svg width="44px" height="44px">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-item">
-              <a href="">
+              <a href="" class="footer-icon">
                 <svg width="44px" height="44px">
-                  <use xlink:href="./images/icons.svg#icon-linkedin"></use>
+                  <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
